@@ -305,7 +305,7 @@ void task_11(){
     std::cin >> new_word;
     std::string result_str;
     for(int i{}; i < seq.size(); ++i){
-        if(seq[i] == 'c' && seq[i+1] && seq[i+2]){
+        if(seq[i] == 'c' && seq[i+1] =='a' && seq[i+2] == 'n'){
             for(char c:new_word) result_str.push_back(c);
             i += 2;
         }else result_str.push_back(seq[i]);
